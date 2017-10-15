@@ -46,3 +46,6 @@ label {
 #play {
   font-weight: bold;
   cursor: pointer; }
+
+.rowLabel {
+  width: 20px; }
