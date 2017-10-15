@@ -10,7 +10,7 @@ html, body {
   justify-content: center;
   align-items: center; }
 
-h1, p, ul, span, label {
+h1, h5, p, ul, span, label {
   color: white; }
 
 .section {
