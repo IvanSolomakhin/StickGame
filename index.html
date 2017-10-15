@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Spirax" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/field.js"></script>
+    <script src="js/ai.js"></script>
+    <script src="js/main.js"></script>
+    <title>StickGame</title>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="welcomeContainer container">
+            <div class="section">
+                <h1>StickGame</h1>
+                <p id="play">Play</p>
+            </div>
+        </div>
+
+        <div class="settingsContainer container">
+            <div class="section">
+                <h1>Settings</h1>
+                <label> Multiple rows
+                    <input type="checkbox" id="multiRows">
+                </label>
+                <label> Game Length
+                    <select id="gameLength">
+                        <option value="short">Short</option>
+                        <option value="medium">Medium</option>
+                        <option value="long">Long</option>
+                    </select>
+                </label>
+                <button id="start">Start</button>
+            </div>
+        </div>
+
+        <div class="gameContainer container">
+            <div class="section" id="game">
+                <div class="field">
+
+                </div>
+                <label> How many you want to remove?
+                    <input id="inputNum" type="number" min="1" max="3" autofocus>
+                </label>
+                <div class="logContainer"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
