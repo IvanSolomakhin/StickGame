@@ -23,7 +23,7 @@ function restart() {
 
 				playerMove(function (playerChoice) {
 					choice = playerChoice;
-					loser = checkEnd('Player');
+					loser = checkEnd('You');
 				});
 
 				if (choice && !loser) {
